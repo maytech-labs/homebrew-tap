@@ -1,20 +1,50 @@
 # matcha, yuzu, ube, and taro, from https://github.com/maytech-labs/mochi-donut.
-# HEAD-only until its first release: brew install --HEAD mochi-donut
+# A release installs the prebuilt binaries; --HEAD builds main with Rust.
+# mochi-donut's release workflow updates the urls and sha256s.
 class MochiDonut < Formula
   desc "Tools that help AI coding agents work with evidence and in the right environment"
   homepage "https://github.com/maytech-labs/mochi-donut"
+  # REAL 1.0, which has no SPDX identifier.
   license :cannot_represent
-  head "https://github.com/maytech-labs/mochi-donut.git", branch: "main"
 
-  depends_on "rust" => :build
+  head do
+    url "https://github.com/maytech-labs/mochi-donut.git", branch: "main"
+    depends_on "rust" => :build
+  end
+
+  on_macos do
+    on_arm do
+      url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-aarch64-apple-darwin.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+    on_intel do
+      url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-x86_64-apple-darwin.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+  end
+
+  on_linux do
+    on_arm do
+      url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+    on_intel do
+      url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+    end
+  end
 
   conflicts_with "matcha", because: "both install a `matcha` binary"
 
   def install
-    system "cargo", "install", *std_cargo_args(path: "crates/matcha")
-    system "cargo", "install", *std_cargo_args(path: "crates/yuzu")
-    system "cargo", "install", *std_cargo_args(path: "crates/ube")
-    system "cargo", "install", *std_cargo_args(path: "crates/taro")
+    if build.head?
+      system "cargo", "install", *std_cargo_args(path: "crates/matcha")
+      system "cargo", "install", *std_cargo_args(path: "crates/yuzu")
+      system "cargo", "install", *std_cargo_args(path: "crates/ube")
+      system "cargo", "install", *std_cargo_args(path: "crates/taro")
+    else
+      bin.install "matcha", "yuzu", "ube", "taro"
+    end
   end
 
   test do
