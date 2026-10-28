@@ -15,22 +15,22 @@ class MochiDonut < Formula
   on_macos do
     on_arm do
       url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "9cf8476e9d269afbfebfbb30bc3f7470bfb0ab27d29a8e9f0d860ffd484482d3"
     end
     on_intel do
       url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "22e8df2668d02add19d5e9c67f8bca79d5c471b7bdbb113a08374f415b7d04af"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "806a9883111555663faeccb017008c018714582dfde5521297615f4882696baf"
     end
     on_intel do
       url "https://github.com/maytech-labs/mochi-donut/releases/download/v0.1.0/mochi-donut-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "2d6a84528ebbc0c71c3522f83170bc4959e6335c0fba61fcfae9da44a2a2891b"
     end
   end
 
