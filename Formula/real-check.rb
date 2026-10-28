@@ -1,10 +1,9 @@
 # real-check, from https://github.com/maytech-labs/real-check.
 # A release installs the prebuilt binary; --HEAD builds main with Rust.
-# real-check's release workflow updates the urls, version, and sha256s.
+# real-check's release workflow updates the urls and sha256s.
 class RealCheck < Formula
   desc "Check a repository and its dependencies for REAL 1.0 license compatibility"
   homepage "https://github.com/maytech-labs/real-check"
-  version "0.1.0"
   # REAL 1.0, which has no SPDX identifier.
   license :cannot_represent
 
