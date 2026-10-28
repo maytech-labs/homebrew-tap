@@ -13,6 +13,7 @@ Or in one step: `brew install maytech-labs/tap/<formula>`, after trusting the ta
 | Formula | What it is |
 |---|---|
 | [`arm-tools`](Formula/arm-tools.rb) | [arm-tools](https://github.com/maytech-labs/arm-tools): language server, linter, and formatter for AArch64 assembly. Apple silicon. |
+| [`mochi-donut`](Formula/mochi-donut.rb) | [mochi-donut](https://github.com/maytech-labs/mochi-donut): `matcha`, `yuzu`, `ube`, and `taro`, tools for AI coding agents. HEAD-only until its first release: `brew install --HEAD mochi-donut`. |
 | [`real-check`](Formula/real-check.rb) | [real-check](https://github.com/maytech-labs/real-check): checks a repository and its dependencies for compatibility with the [REAL 1.0](https://github.com/maytech-labs/real-license) license. macOS and Linux. |
 
 ## Updating a formula
