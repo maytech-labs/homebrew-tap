@@ -4,9 +4,9 @@
 class ArmTools < Formula
   desc "Language server, linter, and formatter for AArch64 assembly on macOS"
   homepage "https://maytech-labs.github.io/arm-tools/"
-  url "https://github.com/maytech-labs/arm-tools/releases/download/v0.1.0/arm-tools-v0.1.0-aarch64-apple-darwin.tar.gz"
-  version "0.1.0"
-  sha256 "db6ce0e88fe7961d6f89df2c6f8a9d87b1e4dccdb10ec8ed46da27d3b9f48461"
+  url "https://github.com/maytech-labs/arm-tools/releases/download/v0.1.1/arm-tools-v0.1.1-aarch64-apple-darwin.tar.gz"
+  version "0.1.1"
+  sha256 "3789f6224d234771fef43f39ad473cbed9ee49020b043f3eeb6ca9cccf16f0ef"
   # REAL 1.0, which has no SPDX identifier, and Apache-2.0 WITH LLVM-exception
   # for the tables derived from LLVM (arm-tools' docs/decisions/0045).
   license :cannot_represent
