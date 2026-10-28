@@ -17,23 +17,23 @@ class RealCheck < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.0/real-check-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "ca5810cbb5bd22a25a0915331bfc4eaa1201f7eb8e4c9c2088531f7b76e72e15"
+      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.1/real-check-v0.1.1-aarch64-apple-darwin.tar.gz"
+      sha256 "e8668248da3877672c67aaa3dc2a91cc1501b931c5dab5d88606899c74ce42f4"
     end
     on_intel do
-      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.0/real-check-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6433b72ef23f1eb577ebc6b8c81f9c4fe9a11b2701648d5a2fde534987650888"
+      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.1/real-check-v0.1.1-x86_64-apple-darwin.tar.gz"
+      sha256 "339452485b5dddcfd49616f07ca88a043c0d5ecb9bff006f2925680a01b5eb31"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.0/real-check-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "2bd8522a71b9d29c796e345aa90ce4b2b9a1441af45097e4d8544280af7fda24"
+      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.1/real-check-v0.1.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "44d543ccc47b2191c94db3543aa05475f4a38c3f31a3d841faa897825d901b82"
     end
     on_intel do
-      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.0/real-check-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1badafafbcc2583a8442dfd66746e3fe64d6ef551a96994978a6c63a1d8b06ac"
+      url "https://github.com/maytech-labs/real-check/releases/download/v0.1.1/real-check-v0.1.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "19f03e8d2c25883066216f9574c461e80d21808edf7bb5d54fbc15b7cd8c2223"
     end
   end
 
