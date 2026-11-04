@@ -1,5 +1,7 @@
 # maytech-labs/homebrew-tap
 
+[![License: REAL 1.0](https://img.shields.io/badge/License-REAL_1.0-blue.svg)](LICENSE.md)
+
 Homebrew formulae for maytech-labs tools.
 
 ```sh
