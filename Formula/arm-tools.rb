@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: LicenseRef-REAL-1.0
 # armls and armtool, from https://github.com/maytech-labs/arm-tools.
 # A release installs the prebuilt binary; --HEAD builds main with Rust.
 # arm-tools' release workflow updates url, version, and sha256.

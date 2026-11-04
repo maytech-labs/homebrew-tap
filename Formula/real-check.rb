@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: LicenseRef-REAL-1.0
 # real-check, from https://github.com/maytech-labs/real-check.
 # A release installs the prebuilt binary; --HEAD builds main with Rust.
 # real-check's release workflow updates the urls and sha256s.
