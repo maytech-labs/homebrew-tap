@@ -16,22 +16,22 @@ class Godo < Formula
   on_macos do
     on_arm do
       url "https://github.com/maytech-labs/godo/releases/download/godo-v0.1.0/godo-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "4c0b7d2b2234e0c3a082f70db5ede6963cfeb62717589ad735310ea0d3048712"
     end
     on_intel do
       url "https://github.com/maytech-labs/godo/releases/download/godo-v0.1.0/godo-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "480f3ae3bd36e81ee4499fe9210dd8ab4f9ee89d592a6e11ce7ff027f7b1e858"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/maytech-labs/godo/releases/download/godo-v0.1.0/godo-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "02043a82bad7a4f6e1df9176f8d0253d53445907d9c7d4e75e25866be58f4f4d"
     end
     on_intel do
       url "https://github.com/maytech-labs/godo/releases/download/godo-v0.1.0/godo-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+      sha256 "d12307170993bb1eb6c0befec18fafaa1d25d218d1f8109ea85d4ee9bb8235b3"
     end
   end
 
