@@ -25,3 +25,7 @@ brew style Formula/<formula>.rb
 brew audit --strict maytech-labs/tap/<formula>
 brew reinstall maytech-labs/tap/<formula> && brew test <formula>
 ```
+
+## License
+
+[REAL 1.0](LICENSE.md). Each formula installs a tool under its own license.

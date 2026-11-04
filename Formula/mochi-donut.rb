@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: LicenseRef-REAL-1.0
 # matcha, yuzu, ube, and taro, from https://github.com/maytech-labs/mochi-donut.
 # A release installs the prebuilt binaries; --HEAD builds main with Rust.
 # mochi-donut's release workflow updates the urls and sha256s.
