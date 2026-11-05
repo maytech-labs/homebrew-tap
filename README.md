@@ -7,7 +7,7 @@ Homebrew formulae for maytech-labs tools.
 ```sh
 brew tap maytech-labs/tap
 brew trust maytech-labs/tap
-brew install arm-tools godo mochi-donut real-check
+brew install arm-tools godo mochi-donut real-check termigatchi
 ```
 
 Or in one step: `brew install maytech-labs/tap/<formula>`, after trusting the tap.
@@ -18,6 +18,7 @@ Or in one step: `brew install maytech-labs/tap/<formula>`, after trusting the ta
 | [`godo`](Formula/godo.rb) | [godo](https://github.com/maytech-labs/godo): make, but every run is a detachable, logged, watchable job. `godo <directive> <target>` runs a Makefile target from anywhere in a project. macOS and Linux. |
 | [`mochi-donut`](Formula/mochi-donut.rb) | [mochi-donut](https://github.com/maytech-labs/mochi-donut): `matcha`, `yuzu`, `ube`, and `taro`, tools for AI coding agents. macOS and Linux. |
 | [`real-check`](Formula/real-check.rb) | [real-check](https://github.com/maytech-labs/real-check): checks a repository and its dependencies for compatibility with the [REAL 1.0](https://github.com/maytech-labs/real-license) license. macOS and Linux. |
+| [`termigatchi`](Formula/termigatchi.rb) | [termigatchi](https://github.com/maytech-labs/godo/tree/main/crates/termigatchi): a tiny, always-alive pet that lives in your terminal, with minigames. Ships from the godo repository. macOS and Linux. |
 
 ## Updating a formula
 
